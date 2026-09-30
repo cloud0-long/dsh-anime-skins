@@ -1,0 +1,24 @@
+{
+  "name": ".",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "Skins for the DeepSeek Harness (DSH) desktop/web GUI: Sakura Dusk & Sky Island",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

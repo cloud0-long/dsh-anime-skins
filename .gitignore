@@ -1,0 +1,10 @@
+# 构建产物之外的临时文件
+__pycache__/
+*.pyc
+.DS_Store
+# 原始大图（可选：自行放置同名文件即可重新构建）
+anime_bg_4k.png
+zelda_bg_source.png
+# 构建时重新生成的壁纸（assets/ 中已有）
+/wallpaper.jpg
+/wallpaper-zelda.jpg
